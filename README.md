@@ -10,8 +10,9 @@ node版本: node v10.15.0
 生产依赖 | 描述
 -|-
 [bootstrap](https://getbootstrap.com/) |            经典样式框架
-[feather-icons](https://feathericons.com/)  |      svg 图标库
-[node-sass](https://www.npmjs.com/package/node-sass)      |      sass支持
+[feather-icons](https://feathericons.com/)  |      ~~svg 图标库~~ （删除）
+[node-sass](https://www.npmjs.com/package/node-sass)      |      ~~sass支持~~(删除)
+less lessloder | less 支持
 [react](https://reactjs.org/)           |     react 
 [react-dom ](https://reactjs.org/)       |    react dom
 [react-router-dom](https://npm.taobao.org/package/react-router-dom)  |   react 路由
@@ -19,7 +20,7 @@ node版本: node v10.15.0
 [reactstrap](https://reactstrap.github.io/)        |   react 的bootstrap组件       
 开发依赖 | 描述
 [react-app-rewired](https://www.npmjs.com/package/react-app-rewired)  |  修改create react app 配置文件
-
+[customize-cra] | 和rewired 配合使用
 ### `npm start`
 
 启动项目
